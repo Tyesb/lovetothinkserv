@@ -178,11 +178,20 @@
     <Compile Include="Migrations\201412162206586_deploy.Designer.cs">
       <DependentUpon>201412162206586_deploy.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201412162337583_fixed.cs" />
+    <Compile Include="Migrations\201412162337583_fixed.Designer.cs">
+      <DependentUpon>201412162337583_fixed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201412170053187_reinit.cs" />
+    <Compile Include="Migrations\201412170053187_reinit.Designer.cs">
+      <DependentUpon>201412170053187_reinit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\fun.cs" />
     <Compile Include="Models\jsonObject.cs" />
     <Compile Include="Models\MatcherDb.cs" />
     <Compile Include="Models\returnObj.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
     <Compile Include="Models\TMatching.cs" />
     <Compile Include="Models\Tweet.cs" />
     <Compile Include="Models\Video.cs" />
@@ -227,11 +236,13 @@
     <None Include="Properties\PublishProfiles\lovetothink - FTP %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\lovetothink - FTP %284%29.pubxml" />
     <None Include="Properties\PublishProfiles\lovetothink - FTP %285%29.pubxml" />
+    <None Include="Properties\PublishProfiles\lovetothink - FTP %286%29.pubxml" />
     <None Include="Properties\PublishProfiles\lovetothink - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\lovetothink - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\lovetothink - Web Deploy %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\lovetothink - Web Deploy %284%29.pubxml" />
     <None Include="Properties\PublishProfiles\lovetothink - Web Deploy %285%29.pubxml" />
+    <None Include="Properties\PublishProfiles\lovetothink - Web Deploy %286%29.pubxml" />
     <None Include="Properties\PublishProfiles\lovetothink - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\lovetothink.pubxml" />
     <None Include="Scripts\jquery-2.1.1-vsdoc.js" />
@@ -273,6 +284,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201412162206586_deploy.resx">
       <DependentUpon>201412162206586_deploy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201412162337583_fixed.resx">
+      <DependentUpon>201412162337583_fixed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201412170053187_reinit.resx">
+      <DependentUpon>201412170053187_reinit.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

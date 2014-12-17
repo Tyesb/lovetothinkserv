@@ -33,7 +33,6 @@ namespace LoveToThinkServiceFinal.Controllers
                 returned.UserIdTwo = (int)ret.TweetID2;
                 returned.Weight = (double) (1 - (ret.Weight / 100));
                 sending.Add(returned);
-
             }
             sending.Distinct();
             return sending;
@@ -47,7 +46,7 @@ namespace LoveToThinkServiceFinal.Controllers
                 foreach (var h in t.hashtags)
                 {
                     Tweet input = new Tweet();
-                    input.TweetID = (db.Tweets.Count() + 1);
+                   // input.TweetID = (db.Tweets.Count() + 1);
                     input.VideoLabel = h.ToString();
                     input.UserID = json.user_id;
                     db.Tweets.Add(input);

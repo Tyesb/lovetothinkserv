@@ -6,11 +6,10 @@ namespace matcher.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    //[Table("TMatching")]
+    [Table("TMatching")]
     public partial class TMatching
     {
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int id { get; set; }
 
         public long TweetID1 { get; set; }
 
